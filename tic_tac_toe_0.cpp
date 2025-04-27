@@ -37,6 +37,7 @@ int main()
     else
     {
         cout<<endl<<endl<<" Invaild Index "<<endl<<endl;
+        k--;
     }
     val(in);
     }
