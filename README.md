@@ -12,6 +12,23 @@ Players take turns placing their marks ("X" and "O") on a 3x3 board until the bo
 - Input validation ensures only valid indices (1-3) are accepted.
 
 ---
+## 📌 Version
+
+**Current Version:** `v1 - Object-Oriented Update`
+
+- Added C++ Class structure
+- Prevents overwriting cells
+- Better input validation
+- Prepares for winner detection feature
+
+---
+
+## 🎯 Future Roadmap
+- Add winner detection logic
+- Announce the winner or draw
+- Add option to replay
+
+---
 
 ## 🎮 How to Play
 1. Run the program.
