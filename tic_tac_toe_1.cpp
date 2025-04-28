@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void val(char in[][3])
+class ttt {
+    string p1,p2;
+    int n,m,k;
+
+public:
+void disp(char in[][3])
 {
     for(int i=0;i<3;i++)
     {
@@ -12,34 +17,50 @@ void val(char in[][3])
         cout<<endl;
     }
 }
-
-int main()
+void check(char in[][3])
 {
-    int c,n,m;
-    char in[3][3]= { {' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} };
-    cout<<" Welcome to Tic Tac Toe Game "<<endl;
-    val(in);
-    for(int k=0;k<9;k++)
-    {
-    cout<<"Where to place, Enter two index of row and column [1,2,3]"<<endl;
-    cin>> n>>m;
-    if(n>0&&n<=3&&m>0&&m<=3)
-    {
-        if(k%2==0)
+    
+}
+
+
+void play(char in[0][3]){
+    for(k=0;k<9;k++)
+    {   
+        
+        cout<<"Where to place, Enter two index of row and column [1,2,3]"<<endl;
+        cin >>n>>m;
+        if((n>0&&n<=3&&m>0&&m<=3)&& in[n-1][m-1]==' ')
         {
-            in[n-1][m-1]='x';
+            if(k%2==0)
+            {
+                in[n-1][m-1]='x';
+            }
+            else
+            {
+                in[n-1][m-1]='o';
+            }
         }
         else
         {
-            in[n-1][m-1]='o';
+            cout<<endl<<endl<<" Invaild Index "<<endl<<endl;
+            k--;
         }
+            disp(in);
     }
-    else
-    {
-        cout<<endl<<endl<<" Invaild Index "<<endl<<endl;
-    }
-    val(in);
-    }
-    
+
+}
+
+
+};
+
+
+
+int main()
+{
+    char in[3][3]= { {' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} };
+    ttt v;
+    cout<<" Welcome to Tic Tac Toe Game "<<endl;
+    v.disp(in);
+    v.play(in);
     return 0;
 }
