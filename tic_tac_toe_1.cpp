@@ -2,11 +2,12 @@
 using namespace std;
 
 class ttt {
+    char in[3][3]= { {' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} };
     string p1,p2;
     int n,m,k;
 
 public:
-void disp(char in[][3])
+void disp()
 {
     for(int i=0;i<3;i++)
     {
@@ -23,7 +24,7 @@ void check(char in[][3])
 }
 
 
-void play(char in[0][3]){
+void play(){
     for(k=0;k<9;k++)
     {   
         
@@ -45,7 +46,7 @@ void play(char in[0][3]){
             cout<<endl<<endl<<" Invaild Index "<<endl<<endl;
             k--;
         }
-            disp(in);
+            disp();
     }
 
 }
@@ -57,10 +58,9 @@ void play(char in[0][3]){
 
 int main()
 {
-    char in[3][3]= { {' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} };
     ttt v;
     cout<<" Welcome to Tic Tac Toe Game "<<endl;
-    v.disp(in);
-    v.play(in);
+    v.disp();
+    v.play();
     return 0;
 }
