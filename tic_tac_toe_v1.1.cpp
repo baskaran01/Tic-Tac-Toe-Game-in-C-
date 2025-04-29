@@ -67,6 +67,7 @@ void play(){
   
         disp();
     }
+    cout<<"\n\n Match Drawn \n -TRY AGAIN-\n\n";
 
 }
 };
