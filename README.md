@@ -120,8 +120,8 @@ x |   |
 
 **Baskaran B**
 🎓 MCA Graduate | 🎮 Game & Software Developer
-📫  [Portfolio Website](https://baskaran01.github.io/baskaran_portfolio/URL)
-🔗 [LinkedIn](https://www.linkedin.com/in/baskaran2001)
+📫  [Portfolio Website](https://baskaran01.github.io/baskaran_portfolio/)
+🔗 [LinkedIn](https://www.linkedin.com/in/baskaran001)
 
 📄 License
 This project is open-source and free to use for learning and educational purposes.
