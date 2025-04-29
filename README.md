@@ -99,16 +99,6 @@ tic_tac_toe.cpp   # Main source code file
 README.md         # Project documentation (this file)
 ```
 
----
-
-## 🚀 Future Improvements
-- Check if a player wins after each move.
-- Prevent placing marks in already occupied cells.
-- Announce a draw when all moves are exhausted without a winner.
-- Improve the game interface with a better board design.
-
----
-
 ## 📸 Example Gameplay
 
 ```plaintext
@@ -128,7 +118,7 @@ x |   |
 
 ## 👤 Author
 
-Baskaran B
+**Baskaran B**
 🎓 MCA Graduate | 🎮 Game & Software Developer
 📫  [Portfolio Website](https://baskaran01.github.io/baskaran_portfolio/URL)
 🔗 [LinkedIn](https://www.linkedin.com/in/baskaran2001)
