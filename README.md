@@ -2,55 +2,55 @@
 
 A simple console-based Tic Tac Toe game written in **C++**.
 
-This project is a basic implementation of the classic two-player Tic Tac Toe game with **object-oriented programming**, **input validation**, and **win detection**. It's built purely for learning and will be improved step-by-step in future versions.
+---
+
+## 📋 Project Description
+
+This project is a basic implementation of the classic two-player Tic Tac Toe game using **object-oriented programming**, **input validation**, and **win detection**. It's built purely for learning and will be improved step-by-step in future versions.
+
+---
+
+## 📌 Version: v1.2 – Improved Grid & Gameplay
+
+### ✅ What’s New:
+- Clean and formatted game board (grid with separators)
+- Used ternary operator for compact player turn logic
+- Game exits immediately on win (`exit(0)`)
+- Minor bug fixes and improved input prompts
 
 ---
 
 ## 🧠 Features
 
-- Two-player console game (`X` and `O`)
-- Validates user input (prevents overwriting existing moves)
-- Detects winners in:
-  - All rows
-  - All columns
-  - Both diagonals
-- Displays winner or draw result
-- Clean, beginner-friendly code
+- Two-player support (X and O)
+- Input validation: avoids overwriting filled cells
+- Detects all win conditions (rows, columns, diagonals)
+- Announces winner or draw clearly
+- Simple and readable class-based design
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - **Language:** C++
 - **IDE:** Visual Studio
-- **Version Control:** Git + GitHub
+- **Version Control:** Git & GitHub
 
 ---
 
-## 📋 Project Description
-- A two-player game played on the console.
-- The board is displayed after every move.
-- Players input their desired position by specifying the row and column.
-- Input validation ensures only valid indices (1-3) are accepted.
+## 📌 Version History
 
----
-
-## 📌 Version
-
-**Current Version:** `v1.1 - Win Detection & Validation Update`
-
-🔄 **What's new in v1.1**
+### 🔹 v1.1 - Win Detection & Validation Update
 - Converted game into a class-based structure
 - Added input validation for legal moves
 - Implemented win detection logic
 - Announces winner or draw at game end
 
-`v1 - Object-Oriented Update`
-
+### 🔹 v1.0 - Object-Oriented Update
 - Added C++ Class structure
 - Prevents overwriting cells
 - Better input validation
-- Prepares for winner detection feature
+- Prepared for winner detection feature
 
 ---
 
@@ -59,72 +59,68 @@ This project is a basic implementation of the classic two-player Tic Tac Toe gam
 - Add player name input
 - Implement score tracking
 - Add "Play Again" option
-- Refactor and modularize more
-- Explore GUI-based version using libraries like SDL or SFML
+- Refactor and modularize further
+- Explore GUI-based version using SDL/SFML
+- Build a C# Unity version for mobile/PC
 
 ---
 
 ## 🎮 How to Play
+
 1. Run the program.
 2. Enter two numbers representing the **row** and **column** (both from 1 to 3).
 3. Player 1 uses **'X'**, Player 2 uses **'O'**.
-4. The game alternates between players for 9 moves.
-
-> **Note**: Winner checking and preventing overwriting cells are not yet implemented.
+4. The game alternates between players for up to 9 moves.
+5. The first to align 3 symbols wins, or the match ends in a draw.
 
 ---
 
-## 🛠️ How to Run
+## ▶️ How to Run
 
-1. Save the leatest version code to a file called `tic_tac_toe.cpp`.
-2. Compile the code using:
-   ```bash
-   g++ tic_tac_toe.cpp -o tic_tac_toe
-   ```
-3. Run the compiled program:
-   ```bash
-   ./tic_tac_toe
-   ```
+### 💻 From Source
+
+```bash
+g++ tic_tac_toe_v1.2.cpp -o tic_tac_toe_v1.2
+./tic_tac_toe_v1.2
 
 ** OR **
 
-I also upload .exe file just download and play 
+💻 For Windows Users
+Download and run:
+👉 [tic_tac_toe_v1.2.exe](https://github.com/baskaran01/Tic-Tac-Toe-Game-in-C-/blob/main/tic_tac_toe_v1.2.exe)
 
 ---
 
 ## 📂 Project Structure
 
 ```plaintext
-tic_tac_toe.cpp   # Main source code file
-README.md         # Project documentation (this file)
+tic_tac_toe_v1.2.cpp   # Main source code
+tic_tac_toe_v1.2.exe   # Compiled Windows executable
+README.md              # Project documentation
 ```
+---
 
-## 📸 Example Gameplay
-
-```plaintext
-Welcome to Tic Tac Toe Game
-  |   |   
-  |   |   
-  |   |   
-Where to place, Enter two index of row and column [1,2,3]
-1 1
-x |   |   
-  |   |   
-  |   |   
-...
-```
+##🌱 Roadmap (Coming Soon)
+-Input names for Player X and O
+-Option to replay without restarting the app
+-Scoreboard feature
+-GUI version (e.g., with SDL or SFML)
+-C# Unity version for mobile/PC
 
 ---
 
-## 👤 Author
+## 👤 About Me
 
 **Baskaran B**
 🎓 MCA Graduate | 🎮 Game & Software Developer
-📫  [Portfolio Website](https://baskaran01.github.io/baskaran_portfolio/)
+📧 Email: balabaskaran2001@gmail.com
+🌐 [Portfolio Website](https://baskaran01.github.io/baskaran_portfolio/)
 🔗 [LinkedIn](https://www.linkedin.com/in/baskaran001)
 
+---
+
 📄 License
-This project is open-source and free to use for learning and educational purposes.
+This is an open project for learning purposes. Feel free to fork, learn, and contribute.
 
 ---
 
