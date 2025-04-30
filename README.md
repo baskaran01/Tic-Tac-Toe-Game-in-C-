@@ -82,6 +82,7 @@ This project is a basic implementation of the classic two-player Tic Tac Toe gam
 ```bash
 g++ tic_tac_toe_v1.2.cpp -o tic_tac_toe_v1.2
 ./tic_tac_toe_v1.2
+```
 
 ** OR **
 
@@ -100,26 +101,26 @@ README.md              # Project documentation
 ```
 ---
 
-##🌱 Roadmap (Coming Soon)
--Input names for Player X and O
--Option to replay without restarting the app
--Scoreboard feature
--GUI version (e.g., with SDL or SFML)
--C# Unity version for mobile/PC
+## 🌱 Roadmap (Coming Soon)
+- Input names for Player X and O
+- Option to replay without restarting the app
+- Scoreboard feature
+- GUI version (e.g., with SDL or SFML)
+- C# Unity version for mobile/PC
 
 ---
 
 ## 👤 About Me
 
-**Baskaran B**
-🎓 MCA Graduate | 🎮 Game & Software Developer
-📧 Email: balabaskaran2001@gmail.com
-🌐 [Portfolio Website](https://baskaran01.github.io/baskaran_portfolio/)
-🔗 [LinkedIn](https://www.linkedin.com/in/baskaran001)
+**Baskaran B** <br>
+🎓 MCA Graduate | 🎮 Game & Software Developer <br>
+📧 Email: balabaskaran2001@gmail.com <br>
+🌐 [Portfolio Website](https://baskaran01.github.io/baskaran_portfolio/) <br>
+🔗 [LinkedIn](https://www.linkedin.com/in/baskaran001) <br>
 
 ---
 
-📄 License
+## 📄 License
 This is an open project for learning purposes. Feel free to fork, learn, and contribute.
 
 ---
