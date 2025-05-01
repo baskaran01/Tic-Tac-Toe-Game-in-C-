@@ -2,8 +2,7 @@
 using namespace std;
 
 class ttt {
-    char in[3][3]= { {' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} };
-    string p1,p2;
+    char in[3][3]= { {' ',' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '} };
     int n,m,k;
 
 public:
@@ -46,7 +45,7 @@ void play(){
             {
                 disp();
                 cout<<(k%2==0?"\n\n Player X is a winner \n\n":"\n\n Player O is a winner \n\n")<<endl;
-                exit(0);
+                return;
             }
         }
         else
@@ -64,9 +63,15 @@ void play(){
 
 int main()
 {
-    ttt v;
-    cout<<" Welcome to Tic Tac Toe Game "<<endl;
-    v.disp();
-    v.play();
+    char A='y';
+    while(A=='y')
+        {
+            cout<<" Welcome to Tic Tac Toe Game "<<endl;
+            ttt v;
+            v.disp();
+            v.play();
+            cout<<endl<<"If you want play again press \"y\" or else any key to exit"<<endl;
+            cin>>A;
+        }
     return 0;
 }
