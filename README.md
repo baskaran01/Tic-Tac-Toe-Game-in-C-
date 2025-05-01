@@ -9,14 +9,12 @@ A simple console-based Tic Tac Toe game written in **C++**.
 This project is a basic implementation of the classic two-player Tic Tac Toe game using **object-oriented programming**, **input validation**, and **win detection**. It's built purely for learning and will be improved step-by-step in future versions.
 
 ---
-
-## 📌 Version: v1.2 – Improved Grid & Gameplay
+## 📌 Version: v1.3 – Replay Feature & Input Validation
 
 ### ✅ What’s New:
-- Clean and formatted game board (grid with separators)
-- Used ternary operator for compact player turn logic
-- Game exits immediately on win (`exit(0)`)
-- Minor bug fixes and improved input prompts
+- 🔁 **Replay Option**: Now play multiple rounds in one session.
+- 🛡️ **Improved Input Validation**: Handles non-numeric input gracefully.
+- ✨ **Same polished grid design** and winner/draw logic.
 
 ---
 
@@ -39,6 +37,12 @@ This project is a basic implementation of the classic two-player Tic Tac Toe gam
 ---
 
 ## 📌 Version History
+
+### 🔹 v1.2 – Improved Grid & Gameplay
+- Clean and formatted game board (grid with separators)
+- Used ternary operator for compact player turn logic
+- Game exits immediately on win (`exit(0)`)
+- Minor bug fixes and improved input prompts
 
 ### 🔹 v1.1 - Win Detection & Validation Update
 - Converted game into a class-based structure
@@ -70,8 +74,8 @@ This project is a basic implementation of the classic two-player Tic Tac Toe gam
 1. Run the program.
 2. Enter two numbers representing the **row** and **column** (both from 1 to 3).
 3. Player 1 uses **'X'**, Player 2 uses **'O'**.
-4. The game alternates between players for up to 9 moves.
-5. The first to align 3 symbols wins, or the match ends in a draw.
+4. The game alternates turns until someone wins or the match is drawn.
+5. After a match, press y to play again or any other key to exit.
 
 ---
 
@@ -80,33 +84,32 @@ This project is a basic implementation of the classic two-player Tic Tac Toe gam
 ### 💻 From Source
 
 ```bash
-g++ tic_tac_toe_v1.2.cpp -o tic_tac_toe_v1.2
-./tic_tac_toe_v1.2
+g++ tic_tac_toe_v1.3.cpp -o tic_tac_toe_v1.3
+./tic_tac_toe_v1.3
 ```
 
 ** OR **
 
 💻 For Windows Users
 Download and run:
-👉 [tic_tac_toe_v1.2.exe](https://github.com/baskaran01/Tic-Tac-Toe-Game-in-C-/blob/main/tic_tac_toe_v1.2.exe)
+👉 [tic_tac_toe_v1.3.exe](https://github.com/baskaran01/Tic-Tac-Toe-Game-in-C-/blob/main/tic_tac_toe_v1.3.exe)
 
 ---
 
 ## 📂 Project Structure
 
 ```plaintext
-tic_tac_toe_v1.2.cpp   # Main source code
-tic_tac_toe_v1.2.exe   # Compiled Windows executable
+tic_tac_toe_v1.3.cpp   # Main source code
+tic_tac_toe_v1.3.exe   # Compiled Windows executable
 README.md              # Project documentation
 ```
 ---
 
 ## 🌱 Roadmap (Coming Soon)
-- Input names for Player X and O
-- Option to replay without restarting the app
-- Scoreboard feature
-- GUI version (e.g., with SDL or SFML)
-- C# Unity version for mobile/PC
+- Player name input
+- Scoreboard across games
+- GUI version using SDL/SFML
+- C# Unity version for PC/mobile
 
 ---
 
