@@ -105,7 +105,8 @@ Download and run:
 
 ```plaintext
 tic_tac_toe_v1.3.cpp   # Main source code
-tic_tac_toe_v1.3.exe   # Compiled Windows executable
+tic_tac_toe_v1.3.exe   # Windows executable
+tic_tac_toe_v1.3L      # Linux executable
 README.md              # Project documentation
 ```
 ---
