@@ -81,7 +81,7 @@ This project is a basic implementation of the classic two-player Tic Tac Toe gam
 
 ## ▶️ How to Run
 
-### 💻 From Source
+### 💻 From Source (Linux/macOS/Windows)
 
 ```bash
 g++ tic_tac_toe_v1.3.cpp -o tic_tac_toe_v1.3
@@ -92,7 +92,12 @@ g++ tic_tac_toe_v1.3.cpp -o tic_tac_toe_v1.3
 
 💻 For Windows Users
 Download and run:
+
+🪟 Windows Executable
 👉 [tic_tac_toe_v1.3.exe](https://github.com/baskaran01/Tic-Tac-Toe-Game-in-C-/blob/main/tic_tac_toe_v1.3.exe)
+
+🐧 Linux Executable
+👉 [tic_tac_toe_v1.3L](https://github.com/baskaran01/Tic-Tac-Toe-Game-in-C-/blob/main/tic_tac_toe_v1.3L)
 
 ---
 
