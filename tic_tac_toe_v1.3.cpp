@@ -50,7 +50,7 @@ void play(){
         }
         else
         {
-            cout<<endl<<endl<<" Invaild Index - Input must be [1-3]"<<endl<<endl;
+            cout<<endl<<endl<<" Invalid Index - Input must be [1-3]"<<endl<<endl;
             k--;
         }
   
